@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body {
+    text-decoration: none;
+}
+
+ul, ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, p, span {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.body-container {
+    max-width: 1146px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-section {
+    max-width: 1070px;
+    width: 100%;
+    padding: 0 15px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu {
+    font-family: 'DM Sans';
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 49px;
+}
+
+.button {
+    font-family: 'DM Sans';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+
+    color: #FFFFFF;
+    padding: 19px 60px;
+    border-radius: 10px;
+}
+
+.header-button {
+    background: #FF7143;
+    margin-right: 30px;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.hero-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    max-width: 459px;
+    width: 100%;
+    margin-right: 77px;
+}
+
+.hero-title {
+    font-family: 'DM Sans';
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+}
+
+.hero-description {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+
+.link-buttom {
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.hero-button {
+    background: #5454D4;
+    margin-right: 40px;
+}
+
+.hero-down {
+    transform: translate(0, 40%)
+}
+
+.logo-section {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section-image1 {
+    width: 120px;
+    height: 28px;
+}
+
+.logo-section-image2 {
+    width: 124px;
+    height: 30px;
+}
+
+.logo-section-image3 {
+    width: 101px;
+    height: 48px;
+}
+
+.logo-section-image4 {
+    width: 118px;
+    height: 24px;
+}
+
+.logo-section-image5 {
+    width: 128px;
+    height: 30px;
+}
+
+
+.hero-two {
+    margin-top: 150px;
+}
+
+.hero-content-two {
+    margin-left: 165px;
+    padding-right: 150px;
+
+}
+
+.hero-title-two {
+    font-family: 'DM Sans';
+    font-size: 50px;
+    line-height: 57px;
+    margin-bottom: 30px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+
+.hero-description-two {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    max-width: 459px;
+    width: 100%;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+
+.more {
+    font-family: 'DM Sans';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+}
+
+.hero-title-tree {
+    font-family: 'DM Sans';
+    font-size: 50px;
+    line-height: 57px;
+    margin-bottom: 30px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+
+.hero-description-tree {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    max-width: 459px;
+    width: 100%;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+
+.hero-image-tree {
+    padding-right: 150px;
+}
+
+.offer {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.offer-card {
+    text-align: center;
+    max-width: 307px;
+    width: 100%;
+
+}
+.card-image{
+    transform: translate(22%, 0)
+
+}
+.offer-title {
+    font-family: 'DM Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+}
+
+.offer-descriptions {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    margin-top: 20px;
+    color: #696871;
+}
+
+.price-title-wrapper {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-title {
+    font-family: 'DM Sans';
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    max-width: 523px;
+    width: 100%;
+    color: #19191B;
+}
+
+.yearly {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #FFFFFF;
+    padding: 16px 56px;
+    background: #5454D4;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.monthly {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    background: #F7F7FB;
+    padding: 16px 56px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.price-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+    margin-bottom: 158px;
+    align-items: center;
+}
+
+.price-card-left, .price-card-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    width: 100%;
+    height: 441px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.price-card-title {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 34px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+
+.price-card-price {
+    font-family: 'DM Sans';
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    color: #1D293F;
+}
+
+.price-card-content {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #696871;
+}
+
+.price-card-button {
+    font-family: 'DM Sans';
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+    padding: 24px 98px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    margin-top: 37px;
+}
+
+.price-card-center {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    height: 473px;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+}
+
+.price-card-center-title {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 50px;
+}
+
+.price-card-center-price {
+    font-family: 'DM Sans';
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #FFFFFF;
+    margin-top: 22px;
+    margin-bottom: 28px;
+}
+
+.price-card-center-content {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+}
+
+.price-card-center-button {
+    font-family: 'DM Sans';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    padding: 24px 98px;
+    background: #9F3919;
+    border-radius: 10px;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-card-small-text{
+    font-size: 30px;
+    line-height: 28px;
+}
